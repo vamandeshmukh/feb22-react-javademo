@@ -23,6 +23,7 @@ public class ArrayDemo2 {
 //
 //		for (int a : arr4)
 //			System.out.println(a);
+		
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Please enter size of array");
@@ -37,6 +38,7 @@ public class ArrayDemo2 {
 		for (int a : arr) {
 			System.out.println(a);
 		}
+
 		sc.close();
 
 	}
