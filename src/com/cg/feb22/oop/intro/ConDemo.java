@@ -29,10 +29,10 @@ public class ConDemo {
 
 		Employee e3 = new Employee(103, "Tonu", 55000);
 		System.out.println(e3.toString());
-		
+
+		Employee e4 = new Employee(104, "Gonu");
+		System.out.println(e4.toString());
+
 	}
 
 }
-
-
-
