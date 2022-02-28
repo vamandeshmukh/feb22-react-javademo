@@ -5,6 +5,9 @@ package com.cg.feb22.oop;
 class Parent {
 
 	int num = 10;
+	private int num5 = 50;
+	static int num4 = 40;
+	
 }
 
 class Child extends Parent {
@@ -21,6 +24,10 @@ class Child extends Parent {
 	}
 }
 
+//class GrandChild extends Child {
+//	
+//}
+
 public class App {
 
 	public static void main(String[] args) {
@@ -28,8 +35,18 @@ public class App {
 		Child obj = new Child();
 //		System.out.println(obj.num2);
 //		System.out.println(obj.num);
+//		System.out.println(obj.num5);
 		obj.m1();
-
+		Parent obj2 = new Child();
+//		obj2.m1();
+		System.out.println(Parent.num4);
+		System.out.println(Child.num4);
+		Child.num4 = 45;
+		System.out.println(Parent.num4);
+		System.out.println(Child.num4);
+		
+		Parent par = new Parent();
+//		par.num
 	}
 
 }
