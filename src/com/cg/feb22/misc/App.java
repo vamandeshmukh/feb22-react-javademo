@@ -3,6 +3,11 @@ package com.cg.feb22.misc;
 public class App {
 
 	public static void main(String[] args) {
+		
+//		State obj = State.MAHARASHTRA;
+//		obj.getStateCode();
+////		State obj2 = new State("abc", 10);
+		
 
 		State MH = State.MAHARASHTRA;
 		System.out.println(MH);
@@ -13,6 +18,7 @@ public class App {
 		State myState = State.MAHARASHTRA;
 		System.out.println(myState);
 		System.out.println(myState.getStateCode());
+//		System.out.println(myState.MH);
 
 		String language = "Kannada";
 		State theState;
