@@ -11,14 +11,14 @@ package com.cg.feb22.oop.abs;
 //has abstract keyword 
 // only method signature  
 //What to do?  - target - method signature - add two integers 
-// can be created within abstract class in interface  
+// can be created within abstract class and within interface  
 
 // concrete class - normal class 
 
 // abstract class 
 // has abstract keyword 
 // its object can not be created 
-// its can be inherited and abstract method can be overridden in the child class 
+// it can be inherited and abstract method can be overridden in the child class 
 
 abstract class AbsClass {
 
