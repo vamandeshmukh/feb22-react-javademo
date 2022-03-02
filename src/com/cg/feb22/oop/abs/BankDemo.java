@@ -1,5 +1,19 @@
 package com.cg.feb22.oop.abs;
 
+//interface 
+
+interface PresidentOfIndia {
+
+}
+
+interface FinMin extends PresidentOfIndia {
+
+	void employmentRules();
+
+//	public abstract void employmentRules();
+
+}
+
 abstract class Rbi {
 
 	int interest;
@@ -11,11 +25,16 @@ abstract class Rbi {
 	abstract void doKyc();
 }
 
-class Hdfcbank extends Rbi {
+class Hdfcbank extends Rbi implements FinMin {
 
 	@Override
 	void doKyc() {
 		System.out.println("Aadhaar");
+	}
+
+	@Override
+	public void employmentRules() {
+		System.out.println("Rules followed");
 	}
 }
 
