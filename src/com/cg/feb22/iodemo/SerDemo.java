@@ -21,7 +21,7 @@ public class SerDemo {
 		Employee emp = new Employee(eid, firstName, salary); // Employee [eid=101, firstName=Sonu, salary=50000.0]
 		System.out.println(emp.toString());
 
-		String file = "emp.ser";
+		String file = "d:\\delete\\emp.ser";
 		FileOutputStream out = new FileOutputStream(file);
 		ObjectOutputStream oos = new ObjectOutputStream(out);
 
