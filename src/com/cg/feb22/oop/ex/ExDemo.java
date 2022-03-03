@@ -13,21 +13,22 @@ public class ExDemo {
 		int num1 = sc.nextInt();
 		System.out.println("Enter num2 ");
 		int num2 = sc.nextInt();
-		int num3 = 123;
+		int num3 = 0;
 
 		try {
-			num3 = num1 / num2;
+			num3 = num1 / num2; // code that may lead to expccetion
 		} catch (ArithmeticException abc) {
-//			abc.printStackTrace();
+//			abc.printStackTrace(); // recovery code  
 			System.out.println("Do not divide by zero!");
 		} finally {
 			sc.close();
+			System.out.println(num3);
 		}
+
+		System.out.println("--- thanks for using this app ---");
 
 		// Exception in thread "main" java.lang.ArithmeticException: / by zero
 		// at com.cg.feb22.oop.ex.ExDemo.main(ExDemo.java:18)
 
-		System.out.println(num3);
-		System.out.println("--- thanks for using this app ---");
 	}
 }
