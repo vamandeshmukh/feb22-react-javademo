@@ -1,5 +1,7 @@
 package com.cg.feb22.oop.ex;
 
+//import java.util.Scanner;
+
 public class ExDemo5 {
 
 	static void checkEligibility(int age) {
@@ -11,6 +13,11 @@ public class ExDemo5 {
 
 	public static void main(String[] args) {
 		System.out.println("Start");
+
+//		Scanner sc = new Scanner(System.in);
+//		String str =sc.nextLine(); Vaman Deshmukh 
+//		String str2 = sc.next(); Vaman 
+
 		try {
 			ExDemo5.checkEligibility(17);
 		} catch (RuntimeException e) {
