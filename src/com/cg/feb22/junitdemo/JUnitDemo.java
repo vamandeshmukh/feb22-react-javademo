@@ -6,4 +6,14 @@ public class JUnitDemo {
 		System.out.println("addNums invoked");
 		return i + j;
 	}
+
+	public int subNums(int i, int j) {
+		System.out.println("subNums invoked");
+		return i - j;
+	}
+
+	public int addition(int i, int j) {
+
+		return i + j;
+	}
 }
