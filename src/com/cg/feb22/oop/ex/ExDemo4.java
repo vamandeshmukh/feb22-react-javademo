@@ -25,12 +25,12 @@ public class ExDemo4 {
 		}
 	}
 
-	public static void main(String[] args) {
-
-		System.out.println("Start");
-//		ExDemo4.printNums();
-		System.out.println("End");
-
-	}
+//	public static void main(String[] args) {
+//
+//		System.out.println("Start");
+////		ExDemo4.printNums();
+//		System.out.println("End");
+//
+//	}
 
 }

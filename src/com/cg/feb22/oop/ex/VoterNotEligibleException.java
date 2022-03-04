@@ -12,9 +12,12 @@ public class VoterNotEligibleException extends Exception {
 
 	public VoterNotEligibleException(String message) {
 		super(message);
-
 	}
 
+//	public VoterNotEligibleException(int message) {
+//		// code 
+//		super(message);
+//	}
 }
 
 //package com.cg.feb22.oop.ex;
